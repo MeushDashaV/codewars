@@ -68,7 +68,6 @@ function splitAndMerge(string, separator) {
 
 //https://www.codewars.com/kata/572af273a3af3836660014a1/train/javascript
 
-
 7 kyu
 Training JS #23: methods of arrayObject---push(), pop(), shift() and unshift()
 
@@ -86,4 +85,17 @@ function infiniteLoop(arr,d,n){
   }
   }
   return arr;
+}
+
+//https://www.codewars.com/kata/572cb264362806af46000793/train/javascript
+
+7 kyu
+Training JS #24: methods of arrayObject---splice() and slice()
+
+function threeInOne(arr){
+  var result = [];
+  for(var i=0;i<arr.length;i+=3) {
+    result.push(arr[i] + arr[i+1] + arr[i+2]);
+  }
+  return result
 }
